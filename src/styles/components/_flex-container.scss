@@ -1,0 +1,208 @@
+$se: space-evenly;
+$sa: space-around;
+
+
+@mixin frc($jc: center, $ai: center, $wrap: wrap) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: $wrap;
+    justify-content: $jc;
+    align-items: $ai;
+    
+     
+}
+
+@mixin frs($ai: stretch, $wrap: wrap) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: $wrap;
+    justify-content: space-around;
+    align-items: $ai;
+    @supports  (justify-content: space-evenly) {
+                justify-content: space-evenly;
+    }
+    
+     
+}
+
+@mixin fc($jc: space-evenly, $ai: center, $wrap: nowrap) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: $wrap;
+    justify-content: $jc;
+    align-items: $ai;
+    
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fc {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    flex-flow: row wrap;
+    flex: 1 0 0;
+
+    @supports  (justify-content: space-evenly) {
+        justify-content: space-evenly;
+    }
+}
+
+.fcraw {
+    display: flex;
+   
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.fcrw {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.flex-container > div {
+    background-color: #ccc;
+}
+
+//DORESIT DISPLAY FLEX A JEHO EXTENDS, v HTML zmenit fc na f
+
+.f {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f_center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_center_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f_between {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_stretch {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 2rem;
+
+    @supports  (justify-content: space-evenly) {
+        justify-content: space-evenly;
+    }
+
+    &:first-of-type {
+       
+        margin-bottom: 1rem;
+    }
+}
+
+.f_start {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.f_end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.f_column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.f_start-end-toggle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+//pro ruzne pomery flex grow
+.g1{
+    flex: 1 1 auto;
+}
+
+.g2{
+    flex: 2 1 auto;
+}
+
+.g3{
+    flex: 3 1 auto;
+}
+
+.g4{
+    flex: 4 1 auto;
+}
+
+.gf1 {
+    flex: 1 1 0;
+}
+
+.gf2 {
+    flex: 2 1 0;
+}
+
+.gf3 {
+    flex: 3 1 0;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .f_start-end-toggle {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.pad {
+    padding: 1rem 0;
+}
+

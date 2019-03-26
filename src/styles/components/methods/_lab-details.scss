@@ -1,0 +1,196 @@
+.box {
+    padding: 10px 15px 10px 15px;
+    margin: 0 4px 8px 4px;
+    text-align: center; 
+    color: white;
+    background: rgba(86, 29, 29, 0.22);
+   
+}
+
+.ld {
+    max-width: 1000px;
+    margin: 10rem auto 5rem auto;
+    padding: 2rem;
+    background-color: #3888B3;
+
+    & h1 {
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+// .colorName {
+//     background: $colorName;
+//     // color: $grey
+// }
+
+// .colorSyn {
+//     background: $colorName;
+//     // color: $grey
+// }
+
+// .colorNameAk {
+//     background: $colorName;
+//     // color: $grey
+// }
+
+// .colorGroupAk {
+//     background: $colorName;
+//     // color: $grey
+// }
+
+// .colorWhere {
+//     background: $colorWhere;
+//     color: $grey;
+// }
+
+.colorWhenTransport {
+    // background: $colorWhenTransport;
+    // color: $grey;
+
+    & > table {
+        margin: 0 auto;
+        text-align: justify;
+    }
+    
+}
+
+// .colorDraw {
+//     background: $colorDraw;
+//     color: $grey;
+// }
+
+// .colorPreanal {
+//     background: $colorPreanal;
+//     color: $grey;
+// }
+
+// .colorNote {
+//     background: $colorNote;
+//     color: $grey; 
+// }
+
+.colorCustomNote {
+    background: $colorCustomNote;
+    color: $grey;
+
+}
+
+// .colorUnit {
+//     background: $colorUnit;
+// }
+
+.colorRefRange {
+    // background: $colorRefRange;
+    & > table {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    
+    }
+
+    & th, td {
+        border-bottom: 1px white solid;
+        height: 50px;
+    }
+}
+
+.colorRunTime {
+
+    // background: $colorDraw;
+    // color: $grey;
+
+    &--no {
+        background: $colorRunTimeNo;
+    }
+
+    &--yes {
+        background: $colorRunTimeYes;
+    }
+    
+}
+
+// .colorInterference {
+//     background: $colorInterference;
+// }
+
+// .colorExtDetails {
+//     background: $colorExtDetails;
+// }
+
+.colorParcelInfo {
+    background: rgba(69, 5, 136, 0.33);
+    
+}
+
+
+
+
+
+
+
+.draw {
+    &__wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    &__type {
+        margin: 0 1rem;
+    }
+}
+
+
+.refRange__U {
+    color: rgb(144, 255, 133);
+}
+
+.refRange__M {
+    color: rgb(163, 206, 255);
+}
+
+.refRange__F {
+    color: rgb(255, 172, 217);
+}
+
+
+
+.customNote {
+    &__link {
+        margin: 0 1.5rem;
+    }
+
+    &__form {
+        margin: 3rem 0;
+        background: #ccc;
+    }
+
+    &__form > textarea {
+        border: none;
+        padding: 1rem;
+        color: green;
+    }
+
+    &__form > label, &__form > textarea, &__form > button {
+        margin: 1rem 0;
+        
+    }
+}
+
+
+@media (max-width: 500px) {
+    .draw__type {
+        // border-bottom: 1px solid red;
+        // flex-grow: 1;
+        // margin: 1rem 0;
+    }
+}
+

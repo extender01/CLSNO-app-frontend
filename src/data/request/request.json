@@ -1,0 +1,57 @@
+{
+    "request": [
+        {
+            "head": "NA ŽÁDANCE MUSÍ BÝT",
+            "text": [
+                "Jednoznačná identifikace pacienta - jméno, příjmení, RČ",
+                "Datum narození a pohlaví (pokud nelze určit z RČ např. u cizinců)",
+                "Datum a čas odběru",
+                "Požadovaná vyšetření",
+                "Pojišťovna nebo jiný plátce",
+                "Diagnóza",
+                "Identifikace oddělení (čitelné razítko)",
+                "IČP lékaře + odbornost",
+                "Razítko a podpis sestry, která odběr provedla",
+                "Kontakt pro nahlášení výsledků"
+            ]
+        },
+        {
+            "head": "OZNAČENÍ VZORKU MUSÍ SPLŇOVAT POŽADAVKY",
+            "text": [
+                "Jednoznačná identifikace pacienta – jméno, příjmení, RČ",
+                "Pouze ročník NESTAČÍ",
+                "Čitelné písmo",
+                "Jednoznačná shoda s žádankou",
+                "Pokud je provedeno více odběrů během dne – označit materiál římskou číslicí nebo jiným vhodným způsobem pro jednoznačnou podrobnější identifikaci"
+                
+            ]
+        },
+        {
+            "head": "PODMÍNKY PRO PŘÍJETÍ VZORKŮ",
+            "text": [
+                "Jednoznačná identifikace materiálu a žádanky (viz výše)",
+                "Výjimkou jsou pacienti u nichž není kompletní identifikace k dispozici – odesílající oddělení o této skutečnosti musí informovat laboratoř a zajistit nezaměnitelnost biologického materiálu a dokumentace",
+                "Pokud je nádoba s biologickým materiálem označena pouze jménem, je přijetí možné pouze v případě, že je nádoba pevně připojena k žádance s kompletní identifikací (přilepená, v uzavřeném obalu apod.)",
+                "U novorozenců, kteří ještě nemají přiřazeno číslo pojištěnce uvést na žádance maximální množství známých údajů (minimálně jméno a příjmení, případně označení A, B u dvojčat), laboratorní informační systém vygeneruje náhradní rodné číslo, pod kterým budou laboratorní nálezy dostupné"
+            ]
+        },
+        {
+            "head": "ODMÍTNOUT LZE",
+            "text": [
+                "Žádanku s biologickým materiálem, na které chybí nebo jsou nečitelné základní údaje pro styk se zdravotní pojišťovnou (číslo pojištěnce, příjmení a jméno, typ zdravotní pojišťovny, IČZ odesílajícího lékaře nebo pracoviště, základní diagnóza) a není možné je doplnit",
+                "Žádanku obsahující požadavek na vyšetření, která laboratoře neprovádějí ani nezajišťují",
+                "Žádanku dospělého pacienta od zdravotnického subjektu s odborností pediatrie (kromě indikace lékaře s odborností lékařská genetika)",
+                "Žádanku muže od subjektu s odborností gynekologie",
+                "Žádanku ambulantního pacienta od subjektu s odborností lůžkového oddělení",
+                "Žádanku dítěte do 10 let věku od zdravotnického subjektu s jinou než pediatrickou specializací",
+                "Žádanku nebo odběrovou nádobu znečištěnou biologickým materiálem",
+                "Požadavek na dodatečná vyšetření pokud není dodána žádanka, která tato vyšetření obsahuje",
+                "nádobu s biologickým materiálem, kde není způsob identifikace materiálu z hlediska nezaměnitelnosti dostatečný",
+                "nádobu s biologickým materiálem, kde zjevně došlo k porušení doporučení o preanalytické fázi",
+                " neoznačenou nádobu s biologickým materiálem"
+            ]
+        }
+
+    ]
+
+}

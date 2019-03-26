@@ -1,0 +1,240 @@
+.dash {
+    // background: #eee;
+}
+
+.lm__container {
+    @include bgimg(url('/images/landing/about2.jpg'));
+    
+}
+
+.lm {
+    // padding-top: 64px;
+       background-color: rgba(0, 73, 113, 0.49);
+       max-width: 120rem;
+       margin: 0 auto;
+
+
+
+    &__methods {
+        padding: 2rem;
+        margin: 0 auto;
+        text-decoration: none;
+        max-width: 1000px;
+    
+        
+        // background-image: url('/images/ET2.jpg');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-attachment: fixed;
+    
+        & > h2 {
+            text-align: center;
+            color: white;
+        }    
+    }
+  
+
+    
+
+    &__search {
+        padding-top: 2.5rem;
+        //for centering lm__search_input inline block
+        text-align: center;
+
+        &--invisible {
+            visibility: hidden;
+        }
+
+        //div with input
+        &_input {
+            display: flex;
+            border: 1px white solid;
+            padding: 1rem;
+            margin: 1rem auto 0 auto;
+            font-size: 3rem;
+            background: none;
+            max-width: 35rem;
+            width: 100%;
+
+            //remove blue border when focused on input
+            & > input:focus {
+                outline: none
+            }
+
+            //input element
+            &_element {
+                height: 40px;
+                border: none;
+                font-size: 3rem;
+                font-weight: 100;
+                min-width: 27rem;
+                background: none;
+                color: white;
+
+               
+            }
+            
+        }
+
+        &_img {
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        &_del {
+            visibility: hidden;
+        }
+
+        &_clearFilter {
+            margin: 0 auto;
+            min-width: 350px;
+            text-align: center;
+            padding-top: 1rem;
+            color: white;
+
+            & > img {
+                margin: 0 .5rem;
+            } 
+
+            &:hover {
+                cursor: pointer;
+            }
+
+
+
+            
+        }
+
+      
+
+        
+    }
+
+    &__cat {
+        @include frs();
+        // background: blue;
+        &:nth-child(2n+1) {
+            padding: 1rem 0;
+            // background: yellow;
+        }
+
+        & button {
+            background: #7ca1b3;
+        }
+
+        &-active {
+            // background-color: rgba(255, 201, 25, .2);
+            font-weight: bold;
+            border: 3px rgb(9, 255, 0) solid;
+            outline: none;
+        }
+
+
+    }
+
+    &__collapsible__filters {
+        background: rgba(23, 81, 111, 0.3);
+        padding: 1rem 0;
+        margin: 1rem 0;
+        display: block;
+
+        &__heading {
+            display: inline-block;
+            width: 90%;
+        }
+
+        &__trigger:hover {
+            cursor: pointer;
+        }
+        &__trigger {
+            // background: green;
+            
+            &:after {
+                font-family: 'Font Awesome 5 Free';
+                content: '\f053';
+                margin-left: 1rem;
+                
+                // position: absolute;
+                // right: 10px;
+                // top: 10px;
+                display: inline-block;
+                transform: rotateZ(270deg);
+                transition: transform 300ms;
+              }
+            
+            &.is-open {
+                // background: red;
+                &:after {
+                transform: rotateZ(90deg);
+            }
+              }
+        }    
+
+        
+            
+    }
+
+    &__item {
+        
+        margin: 1rem 0;
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+        color: white;
+        border: 1px white solid;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &--found {
+            background: rgb(185, 0, 86);
+            transition: background .8s;
+            border-radius: 5%;
+            padding: .5rem;
+            
+        }
+
+        & a {
+            color: white;
+        }
+        
+    }
+
+    &__internal {
+        background: rgb(23, 81, 111);
+    }
+
+    &__external {
+        background: rgb(18, 117, 113);
+
+    }
+
+   
+}
+
+
+
+@media (max-width:500px) {
+    .lm{
+
+        &__search {
+            padding-left: 0;
+        }
+
+        &__item {
+            flex-flow: column wrap;
+
+            & > div {
+                margin: .4rem 0;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                width: 100%;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+
+

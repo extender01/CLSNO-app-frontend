@@ -1,0 +1,348 @@
+{
+    "tubeCont": {
+        "box": {
+            "heading": "Kontaminace aditivy ve zkumavkách",
+            "image": "/images/mistakes/tube_contamination.jpg",
+            "text": "Zkumavky obsahují různá aditiva. Pokud se aditivum dostane tam, kam nemá, může to výrazně ovlivnit výsledky měření."
+        },
+        "whatHeading": "Kontaminace aditivy ve zkumavkách",
+        "whatText": "Zkumavky obsahují různá chemická aditiva a každý laboratorní test vyžaduje jiný typ aditiva. Nelze proto zkumavky jen tak zaměňovat nebo přelévat krev mezi zkumavkami",
+        "whatImg": "/images/mistakes/tube_contamination2.jpg",
+        "how": [
+            {
+                "howHeading": "Přelévání krve z jednoho typu zkumavky do druhého",
+                "howText": "Například při snaze o doplnění objemu poslední odebírané zkumavky, kde už krev špatně tekla",
+                "howImg": "/images/mistakes/draw_mix.svg"
+            },
+            {
+                "howHeading": "Nesprávné pořadí zkumavek při odběru",
+                "howText": "Při odběru může při výměně zkumavek dojít ke zpětnému toku, který sebou strhne obsažená aaditiva a kontaminuje další použitou zkumavku.",
+                "howImg": "/images/mistakes/draw_order.svg"
+
+            },
+            {
+                "howHeading": "Záměna vršku",
+                "howText": "Aditivum na vršku zkumavky kontaminuje obsah jiné zkumavky",
+                "howImg": "/images/mistakes/draw_cap.svg"
+
+            }
+        ],
+        "cons": [
+            {
+                "conHeading": "Kontaminace EDTA (Krevní obraz)",
+                "conText": "EDTA z krevniho obrazu přidává do krve velké množství K+ a zároveň vychytává dvojmocné ionty, takže snižuje množství Ca2+, Mg2+, Zn2+ a dále enzymy, které tyto ionty potřebují ke své aktivitě jako např. ALP, CK.",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Ca2+", "M2+", "Zn2+", "ALP", "CK", "Fibrinogen", "Faktor V", "Faktor VIII"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["K+", "APTT", "PT"]
+                    }
+                ]
+            },
+            {
+                "conHeading": "Kontaminace Citrátem (Koagulace, sedimentace)",
+                "conText": "Citrát sodný přidává do krve velké množství Na+ a podobně jako EDTA vychytává dvojmocné ionty, takže snižuje množství Ca, Mg, Zn a dále enzymy, které tyto ionty potřebují ke své aktivitě ",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Na+"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Ca2+", "Mg2+", "Zn2+", "ALP", "AST"]
+                    }
+                ]
+            },
+            {
+                "conHeading": "Kontaminace Li Heparinem (Biochemická zelená zkumavka)",
+                "conText": "Li heparin jako protisrážlivé činidlo prodlužuje parametry koagulace. Dále může interferovat v PCR stanoveních a v někerých reakcích antigenu a protilátky",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["APTT", "PT"]
+                    }
+                   
+                ]
+            }
+            
+        ]
+    },
+
+
+   "infusionCont": {
+        "box": {
+            "heading": "Kontaminace infuzním roztokem",
+            "image": "/images/mistakes/infusion_contamination.jpg",
+            "text": "Při odběru současně s podáváním infuze může roztok kontaminovat a výrazně naředit odebíranou krev a silně ovlivnit měřené parametry."
+        },
+        "whatHeading": "Kontaminace infuzním roztokem",
+        "whatText": "Běžně používané infuze jako fyziologický roztok, 5% glukóza, Ringer obsahují řadu látek, které se běžně stanovují v laboratoři (Na, K, Cl, glukóza), v diametrálně odlišných koncentracích než v krvi. Pokud obsah infuze kontaminuje odebíranou krev, může silně ovlivnit koncentrace stanovovaných analytů, jednak vlastní přítomností v infuzi a jednak naředěním dalších parametrů objemem infuze. Ovlivněné výsledky mohou v důsledku ohrozit pacienta na životě.",
+        "whatImg": "/images/mistakes/infusion_contamination.jpg",
+        "how": [
+            {
+                "howHeading": "Odběr přes nedostatečně opláchnutý katetr / kanylu",
+                "howText": "Při nasávání krve do zkumavky se v hadičkách krev smíchá se zbytky infuze"
+            },
+            {
+                "howHeading": "Odběr při současné aplikaci infuze",
+                "howText": "Pokud je odběr prováděn nad kapající infuzí, je krev v žíle těsně za místem vstupu infuze silně naředěná infuzním roztokem"
+            }
+        ],
+        "cons": [
+            {
+                "conHeading": "Kontaminace fyziologickým roztokem",
+                "conText": "0,9 % fyziologický roztok obsahuje ionty Na+ a Cl- v koncentracích přibližně 154 mmol/l. Při kontaminaci je tedy naměřena vyšší hladina Na+ a hlavně Cl-. Objem infuze nařeďuje a snižuje naměřené koncentrace ostatních parametrů, např hematokritu a hemoglobinu v krevním obraze. ",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Na+", "Cl-"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Hct", "Hb"]
+                    }
+                ]
+            },
+            {
+                "conHeading": "Kontaminace 5% dextrosou (glukózou)",
+                "conText": "5% dextrosa v infuzi má koncentraci glukózy 278 mmol/l, takže výrazně zvyšuje naměřenou koncentraci glukózy. Jako ostatní infuze, snižuje naměřené hodnoty ostatních analytů, které nejsou v infuzi obsaženy",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Glukóza"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Hct", "Hb"]
+                    }
+                ]
+            }
+            
+        ]
+    },
+
+    "hemolysis": {
+        "box": {
+            "heading": "Hemolýza",
+            "image": "/images/mistakes/rbc.jpg",
+            "text": "Hemolytické vzorky krve znemožňují stanovení některých analytů. Mechanismy účinku jsou různé a rovněž záleží na stupni hemolýzy. Při silnější hemolýze se ruší všechny metody."
+        },
+        "whatHeading": "Hemolýza",
+        "whatText": "Červené krvinky obsahují některé analyty v signifikantně vyšším množství než v plasmě. Vylití obsahu krvinek tak může uměle zvýšit jejich koncentraci v séru / plasmě. Dále může volný hemoglobin nebo jeho červené zbarvení interferovat s chemickými reakcemi při jejich stanovování. Hemolýza při odběru se dá od intravaskulární hemolýzy odlišit stanovením haptoglobinu. Nejvíce jsou hemolýzou ovlivněny parametry K+, AST, bilirubin, Fe, LD. Při silnější hemolýze se ruší všechna vyšetření a je potřeba provést nový odběr i s vytvořením nové žádanky.",
+        "whatImg": "/images/mistakes/haemolysis.jpg",
+        "how": [
+            {
+                "howHeading": "Odběr krve přes kanylu.",
+                "howText": "Při odběru krve přes kanylu jsou krvinky pod vetším tlakem a je vyšší riziko jejich rozbití. Za normálních okolností by se odběr přes kanylu provádět němel a měl by být proveden standardní odběr z druhé ruky a když nekape žádná infuze."
+            },
+            {
+                "howHeading": "Kontaminace dezinfekcí",
+                "howText": "Pokud není dezinfekce na pokožce zaschnutá, dojde k hemolýze"
+
+            },
+            {
+                "howHeading": "Nešetrné zacházení",
+                "howText": "Příliš prudké třepání zkumavkou po odběru nebo příliš násilné vstřikování krve stríkačkou (u otevřeného odběrového systému) krvinky rozbije"
+
+            },
+            {
+                "howHeading": "Špatné skladování",
+                "howText": "Příliš dlouhý čas mezi odběrem a příjmem nebo uskladnění plné krve v lednici. Krev je potřeba po odběru centrifugovat a fyzicky oddělit krevní elementy od plasmy / séra."
+
+            },
+            {
+                "howHeading": "Nesprávný poměr krve a protisrážlivého činidla",
+                "howText": "Nesprávný poměr objemů krve a protisrážlivého činidla může způsobit hemolýzu. Vakuové odběrové systémy by měly zajistit správný objem krve ve zkumavce."
+
+            }
+        ],
+        "cons": [
+            {
+                "conHeading": "Hemolytické sérum / plasma",
+                "conText": "Nejvíce jsou ovlivněny analyty, které jsou obsaženy v krvinkách ve velkém množství. Volný hemoglobin rovněž interferuje při chemických reakcích stanovení bilirubinu.",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Bilirubin"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["K+", "AST", "Fe", "UIBC", "LD", "Laktát", "Amoniak"]
+                    }
+                ]
+            }
+            
+        ]
+    },
+
+    "abr": {
+        "box": {
+            "heading": "Chyby při odběru na krevní plyny a acidobazickou rovnováhu (Astrup)",
+            "image": "/images/mistakes/abr.svg",
+            "text": "Při odběru vzorků na stanovení acidobazické rovnováhy a krevních plynů je naprosto kritické dodržet anaerobní podmínky odběru, vzorek analyzovat co nejdříve po odběru a také zamezit vzniku sraženin."
+        },
+        "whatHeading": "Kontaminace infuzním roztokem",
+        "whatText": "Množství (parciální tlaky) různých plynů v krvi je velmi odlišné od jejich od jejich množství ve vzduchu. Kyslík má ve vzduchu parciální tlak zhruba 21 kPa a v arteriální krvi přibližně 12 kPa. U CO2 je rozdíl ještě větší: ve vzduchu je pouze 0,04 kPa a v krvi 5,3 kPa. Pokud se odebíraná krev dostane do styku se vzduchem, výrazně se ovlivní poměry plynů a tím i další doprovodné parametry. Dalším problémem je probíhající metabolismus krevních buněk, který ovlivňuje jak acidobazickou rovnováhu, tak krevní plyny. ",
+        "whatImg": "/images/mistakes/bubbles.jpg",
+        "how": [
+            {
+                "howHeading": "Bubliny ve stříkačce",
+                "howText": "V případě nasátí bubliny do stříkačky je potřeba bubliny vytlačit ve vertikální poloze pryč. Používané stříkačky PicoSafe umožňují vytlačení bublin do vršku bez nutnosti otevření stříkačky",
+                "howImg": "/images/mistakes/bubbles3.jpg"
+            },
+            {
+                "howHeading": "Bubliny v kapiláře",
+                "howText": "Pokud je při nasávání kapky krve do kapiláry nasáta také bublina vzduchu, je nutné ji co nejdříve odstranit pomocí drátku a magnetu",
+                "howImg": "/images/mistakes/bubbles2.jpg"
+            },
+            {
+                "howHeading": "Dlouho po odběru",
+                "howText": "Metabolismus krevních buněk pokračuje i po odběru a ovlivňuje jak acidobazickou rovnováhu, tak krevní plyny. Při leukocytóze je ovlivnění výraznější.",
+                "howImg": "/images/mistakes/abr_metabolism.jpg"
+            }
+
+        ],
+        "cons": [
+            {
+                "conHeading": "Bubliny",
+                "conText": "Kontakt se vzduchem ovlivní složení plynu v krvi. Kyslík ze vzduchu přejde do krve a způsobí falešné zvýšení. CO2 jde naopak z krve pryč a způsobí falešné snížení. Snížení CO2 má přímý dopad na zvýšení pH a ovlivnění dalších počítaných parametrů ",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["pH", "pO2", "sO2"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["pCO2"]
+                    }
+                ]
+            },
+            {
+                "conHeading": "Příliš dlouhá doba mezi odběrem a analýzou",
+                "conText": "Metabolismus krevních buněk pokračuje i po odběru a ovlivňuje jak acidobazickou rovnováhu, tak krevní plyny. Stoupá CO2, spotřebovává se kyslík a klesá pH. Při leukocytóze je ovlivnění výraznější.",
+                "conTable": [
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": [ "pH", "pCO2"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["pO2", "Ca2+"]
+                    }
+                ]
+            }
+            
+        ]
+    },
+    
+
+    "preparation": {
+        "box": {
+            "heading": "Chyby při přípravě pacienta na odběr a při odběru",
+            "image": "/images/mistakes/draw2.jpg",
+            "text": "Pacient musí den před odběrem dodržet několik pravidel, která jsou důležitá k tomu, aby naměřené výsledky mělí správnou výpovědní hodnotu."
+        },
+        "whatHeading": "Chyby při přípravě pacienta na odběr",
+        "whatText": "Pokud není pacient správně poučen a nedodrží pravidla před odběrem, naměřené hodnoty mohou být zavádějící a nesprávné.",
+        "whatImg": "/images/mistakes/draw3.jpg",
+        "how": [
+            {
+                "howHeading": "Pacient nebyl nalačno",
+                "howText": "Tuky z potravy způsobují zákal séra a mohou interferovat s některými stanoveními. Hladina glukózy bude po jídle zvýšena.",
+                "howImg": "/images/mistakes/fasting.jpg"
+            },
+            {
+                "howHeading": "Odběr nebyl proveden ráno",
+                "howText": "Pokud není lékařem uvedeno jinak, měly by se odběry provádět v ranních hodinách. Spousta analytů má cirkadiánní rytmus (hladiny se během dne mění) a pro srovnávání hodnot je vhodné, aby byly z odběrů ve stejný denní čas.",
+                "howImg": "/images/mistakes/morning.jpg"
+
+            },
+            {
+                "howHeading": "Odběr byl proveden po velké fyzické zátěži",
+                "howText": "Větší fyzická zátěž může vyvolat změny v koncentraci některých analytů a způsobit tak naměření zavádějících výsledků.",
+                "howImg": "/images/mistakes/physio.jpg"
+
+            },
+            {
+                "howHeading": "Pacient nevysadil léky před odběrem",
+                "howText": "Pokud pacient užívá léky pravidelně, měl by zkonzultovat se svým lékařem, zda je možné tyto léky den před odběrem vysadit.",
+                "howImg": "/images/mistakes/meds.jpg"
+
+            },
+            {
+                "howHeading": "Dehydratace",
+                "howText": "Pokud pacient před odběrem dlouho nepil, výsledky mohou být dehydratací ovlivněny. V den odběru by se pacient ráno měl normálně napít (aspoň čtvrt litru vody - NE slazený nápoj).",
+                "howImg": "/images/mistakes/dehydration.jpg"
+
+            },
+            {
+                "howHeading": "Dlouhé stažení paže turniketem",
+                "howText": "Dlouhé stažení paže vede ke změnám poměru tělesných tekutin ve stažené paži. Turniket by neměl být stažený déle než 1 minutu.",
+                "howImg": "/images/mistakes/tourniquet.jpg"
+
+            },
+            {
+                "howHeading": "Zatnutá pěst",
+                "howText": "Zatnutí pěsti vede ke změnám poměru tělesných tekutin v zatažené paži. Není doporučeno tento postup používat.",
+                "howImg": "/images/mistakes/fist.jpg"
+
+            }
+
+
+        ],
+        "cons": [
+            {
+                "conHeading": "Bez lačnění",
+                "conText": "Po jídle stoupá v krvi hladina glukózy a jsou ovlivněny parametry lipidogramu (triacylglyceroly, HDL cholesterol, LDL cholesterol). Zákal séra způsobený zvýšenou hladinou triacylglycerolů může způsobit interferenci s dalšími testy.",
+                "conTable": [
+                    
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Glukóza", "Lipidové parametry"]
+                    }
+                ]
+            },
+
+            {
+                "conHeading": "Zatnutá pěst",
+                "conText": "Zatínání pěsti způsobí svalovou kotrakcí a možnou lokální hemolýzou změnu některých parametrů. Zároveň hrozí větší riziko hemolýzy a nutnosti nového odběru. Zatínaní pěsti se nedoporučuje. Místo toho se pro lepší nalezení vhodné žíly používá turniket.",
+                "conTable": [
+                    
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Železo", "K+", "AST", "Ca2+", "Cl-", "Mg2+", "CK", "Na"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["fosfát"]
+                    }
+                ]
+            },
+
+            {
+                "conHeading": "Dehydratace",
+                "conText": "Dehydratace způsobí zakoncentrování mnoha analytů v krvi nebo změnu jejich koncentrace z jiných příčin",
+                "conTable": [
+                    
+                    {
+                        "value": "/images/mistakes/arrow_up.png",
+                        "analytes": ["Hb", "Hematokrit", "Urea", "Celková bílkovina", "Albumin", "Na+", "K+", "Cl-", "Glukóza", "Kreatinin"]
+                    },
+                    {
+                        "value": "/images/mistakes/arrow_down.png",
+                        "analytes": ["Kapilární glukóza"]
+                    }
+                ]
+            },
+
+            {
+                "conHeading": "Odběry v průběhu dne",
+                "conText": "Hodnoty koncentrací některých analytů v průběhu dne silně kolísají (cirkadiánní rytmus) a to až v řádu desítek procent. Mezi analyty podléhající cirkadiánnímu rytmu patří kortizol, železo, kreatinin, celková bílkovina, hemoglobin, draslík, fosfát "
+               
+            }
+        ]
+    }
+}

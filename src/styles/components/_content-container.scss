@@ -1,0 +1,54 @@
+.content-container {
+    padding: 1rem 2rem;
+    
+    
+}
+
+
+.container {
+    margin-top: 6.4rem;
+    // background: url('/images/ET6.jpg');
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-position: center;
+    // position:absolute;
+    // top:6.4rem;
+    
+    // bottom:0;
+    right:0;
+    left:0;
+    // height: 100%;
+
+
+    &__white {
+        background: white;
+        padding: 3rem 0;
+        
+        & h1, h2, h3 {
+            color: $h-blue;
+        }
+
+        & p {
+            color: $p-grey;
+        }
+    }
+
+    &__blue {
+        padding: 3rem 0;
+        background: $bg-blue;
+        
+        
+        & h1, h2, h3, h4, p {
+            color: white;
+        }
+
+        & h1, h2 {
+            text-align: center;
+        }
+
+        
+        
+        
+    }
+}

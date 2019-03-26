@@ -1,0 +1,331 @@
+
+
+
+
+//============JUMBOTRON============================================
+
+.jumbotron {
+
+    min-height: 75rem;
+    @include bgimg();
+    @include frc();
+
+
+    
+    
+
+    &__heading {
+        // background: rgba(177, 177, 177, 0.1);
+        text-align: center;
+        padding: 2rem 3rem;
+    }
+
+    & h1 {
+        font-size: 5rem;
+        color: #ffffff;
+        background: $h-darkblue;
+        padding: 2rem;   
+    }
+
+    & h2 {
+        color: #ffffff;
+        background: $h-darkblue;
+        padding: 2rem;  
+    }
+}
+
+
+//========================FOR PATIENTS==========================================================
+
+#pacienti {
+    height: 6rem;
+    // background: red;
+}
+
+.for-patients {
+    max-width: 150rem;
+    margin: 0 auto;
+    @include frs(stretch);
+    padding-bottom: 5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//===============================FOR DEPARTMENTS=============================================================
+
+#oddeleni {
+    height: 6rem;
+    // background: red;
+
+}
+
+.for-departments {
+    max-width: 150rem;
+    margin: 0 auto;
+    @include frs(stretch);
+
+}
+
+
+
+
+
+//============================DRAW ORGANIZATION ========================================================
+
+.draworg {
+    padding: 10rem 0;
+    margin: 0;
+
+}
+
+//========================DEPARTMENTS======================================================
+
+
+.container__departments {
+    @include bgimg(url('/images/landing/about2.jpg'));
+    
+
+}
+    
+
+
+.departments {
+
+    // @include frc();
+    padding: 5rem 0;
+    max-width: 120rem;
+    margin: 0 auto;
+    min-height: 50rem;
+
+    & h3, p {
+        text-align: center;
+        padding: 1rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+
+    }
+
+    & h3 {
+        font-size: 2.5rem;
+        margin-bottom:0;
+        color: white;
+    }
+
+   
+
+    &__item {
+        padding: 4rem 0;
+        color: white;
+        background: rgba(0, 24, 35, 0.75);
+        margin: 10rem 0;
+
+        & p {
+            font-family: 'Raleway';
+            color: white;
+        }
+
+        &__images {
+            @include frs();
+            padding: 2rem 0;
+            
+            
+
+            & img {
+                max-width: 35rem;
+                max-height: 35rem;
+                height: 100%;
+                width: 100%;
+                border: 1px white solid;
+                margin: 1rem 0;
+                
+                
+            }
+        }
+
+    }
+    
+
+    &__items {
+        color: $p-grey;
+        margin: 2rem;
+    }
+
+    &__image {
+       @include imgWrapper(35rem);
+    }
+}
+
+
+
+
+
+
+//============================CONTACTS =======================================================================
+
+
+#contact {
+    padding: 2rem 0;
+
+
+
+
+}
+
+.contact__table {
+
+
+
+    background: rgb(43, 106, 139);
+    margin: 1rem 0;
+    text-align: left;
+    
+    & > h4 {
+        text-align: center;
+        padding-top: 2rem;
+        color: white;
+    }
+
+    & > table {
+        margin: 0 2rem 2rem 2rem;
+        // background: #F0F9FF;
+        padding: 1rem;
+        color: white;
+    }
+
+
+    &  td {
+        padding-right: 1rem;
+    }
+
+ 
+
+}
+
+.contact__boss {
+    background: rgb(43, 106, 139);
+    margin: 1rem 0;
+    text-align: left;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    
+    & > h4 {
+        text-align: center;
+        padding-top: 2rem;
+        color: white;
+    }
+
+}
+
+
+.contact__address {
+    @include frs();
+    padding: 1rem;
+}
+
+.contact__map {
+    width: 100%;
+    height: 34.2rem;
+    max-width: 50rem;
+    max-height: 33.2rem;
+    flex-grow: 1;
+    flex-basis: 30rem;
+    // margin: 1rem;
+    border: 1px white solid;
+
+
+}
+
+.contact__image {
+    flex-grow: 1;
+    flex-basis: 10rem;
+    margin: 0 1rem 1rem 1rem;
+    border: 1px white solid;
+    width: 100%;
+    height: 100%;
+    max-width: 50rem;
+    max-height: 33rem;
+
+}
+
+.contact__phone_er {
+    & h3 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+//==================METHODS======================================================
+.methods {
+    box-shadow: 0 10px 15px rgb(200, 200, 200);
+    height: 15rem;
+    background: #3888B3;
+    // padding-top: 6rem;
+    // max-width: 50rem;
+
+    &__div {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    & h2 {
+        text-align: center;
+    }
+
+    & a {
+        color: #ffffff;
+    }
+
+    & a:hover {
+        font-size: 102%;
+        color: #fff495;
+        transition: font-size 0.3s, color 0.3s;
+        transition-delay: .05s;
+    }
+    
+}
+
+
+.pohotovost {
+    color: rgb(255, 172, 172);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//==========================COMMON==================================================
+
+.shad {
+    box-shadow: 0 10px 15px rgb(167, 167, 167);
+
+}
+
+
+
+

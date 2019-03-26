@@ -1,0 +1,122 @@
+.reception {
+    // @include fc();
+    max-width: 120rem;
+    margin: 0 auto;
+
+    & h2, h3 {
+        text-align: center;
+    }
+
+    & p {
+        margin: 2rem;
+        text-align: justify;
+    }
+
+   
+
+   
+
+    &__card {
+        @include fc(space-evenly, stretch);
+        max-width: 40rem;
+        background: $bg-blue;
+        padding: 2rem;
+        margin: 2rem;
+
+        & h3 {
+            color: white;
+        }
+
+
+        & p {
+            margin: 1rem;
+            color: white;
+            text-align: center;
+            
+        }
+
+        & td {
+            padding: 1rem 2rem;
+            border: 1px $h-blue solid;
+            color: white;
+        }
+
+        & th {
+            color: white;
+        }
+
+        &--small {
+            max-width: 25rem;
+            flex-basis: 18rem;
+            flex-grow: 1;
+        }
+
+    }
+
+    &__item {
+
+
+        &__line {
+            @include frs();
+            // flex-grow: 1;
+
+            & p {
+                // flex-grow: 1;
+            }
+
+            &--center {
+                @include frc();
+            }
+        }
+
+        &__half {
+            // flex-grow: 1;
+            // flex-basis: 0;
+            // min-width: 20rem;
+
+            &:first-of-type {
+                // background: red;
+                // flex-grow: 1.1;
+                // flex-basis: 20%;
+            }
+        }
+
+    }
+
+
+    &__notes {
+        margin: 10rem 0;
+    }
+
+    &__plan {
+        margin: 10rem 0;
+    }
+
+   
+
+    &__image {
+        max-width: 60rem;
+        margin: 3rem auto;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+   &__icon {
+       @include iconImage();
+   }
+
+   &__textForIcon {
+       @include textForIcon()
+   }
+
+    
+
+
+
+
+    &__center {
+        text-align: center;
+    }
+}

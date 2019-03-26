@@ -1,0 +1,38 @@
+.Collapsible {
+    color: white;
+    text-align: center;
+    background: rgba(23, 81, 111, 0.0);
+    padding: 1rem;
+    // border: 1px black solid;
+    margin-top: 1rem;
+
+    &__trigger:hover {
+        cursor: pointer;
+    }
+    &__trigger {
+        // background: green;
+        
+        &:after {
+            font-family: 'Font Awesome 5 Free';
+            content: '\f053';
+            margin-left: 1rem;
+            
+            // position: absolute;
+            // right: 10px;
+            // top: 10px;
+            display: inline-block;
+            transform: rotateZ(270deg);
+            transition: transform 300ms;
+          }
+        
+        &.is-open {
+            // background: red;
+            &:after {
+            transform: rotateZ(90deg);
+        }
+          }
+    }    
+    
+
+    
+}

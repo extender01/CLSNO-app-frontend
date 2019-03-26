@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Lab Met Item correctly 1`] = `
+<div
+  className="f_between lm__item"
+>
+  <div
+    className=""
+  >
+    <Link
+      replace={false}
+      to={
+        Object {
+          "pathname": "/methods/detail/5bea74c7c75591445c168693",
+          "state": "external",
+        }
+      }
+    >
+      CYFRA
+    </Link>
+  </div>
+  <div>
+    <p>
+      cyp je to
+    </p>
+  </div>
+  <div>
+    <Link
+      replace={false}
+      to="/edit/5bea74c7c75591445c168693"
+    >
+      Krnov
+    </Link>
+  </div>
+</div>
+`;

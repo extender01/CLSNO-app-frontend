@@ -1,0 +1,61 @@
+// Colors
+$dark-blue: #364051;
+$grey: #2a2a2a;
+$p-grey: #757575;
+$h-blue: #3d9bc0;
+$h-darkblue: #1c779a;
+$header-blue: #17516f;
+
+$bg-blue: #3888B3;
+$h-lightblue: rgb(100, 201, 255);
+$pink: #e91e63;
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+$search-border: 1px rgb(120, 120, 120) solid;
+
+$bp: 700px;
+$draw-img: 6rem;
+
+
+$name: #1b7ab9;
+// $name: #ebebeb;
+$draw: #ebebeb;
+$customNote: rgba(255, 246, 136, 0.68);
+$details: #984b43;
+$unit: #3b3b3b;
+$runTimeNo: #f16f6f;
+$interference: #3d3d3d;
+$parcelInfo: #4caf50;
+$extDetails: rgb(0, 180, 224);
+$runTimeYes: #50b153;
+$searchBar: rgb(255, 233, 36);
+
+
+
+//barvy komponent na detailu
+$colorName: $name;
+$colorSyn: $name;
+$colorNameAk: $name;
+$colorGroupAk: $name;
+$colorWhere: $draw;
+$colorWhenTransport: $draw;
+$colorDraw: $draw;
+$colorPreanal: $draw;
+$colorNote: $draw;
+$colorCustomNote: $customNote;
+$colorRunTimeNo: $runTimeNo;
+$colorRunTimeYes: $runTimeYes;
+$colorInterference: $interference;
+$colorParcelInfo: $parcelInfo;
+$colorExtDetails: $extDetails;
+$colorUnit: $unit;
+$colorRefRange: $unit;
+
+
+$fa-font-path: "../webfonts";
+

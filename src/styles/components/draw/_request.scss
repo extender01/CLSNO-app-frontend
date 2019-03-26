@@ -1,0 +1,39 @@
+.request {
+    max-width: 120rem;
+    margin: 5rem auto 0 auto;
+    
+
+    & > p {
+        text-align: center;
+        margin: 2rem 1rem;
+    }
+
+    &__items {
+        @include frc(center, flex-start);
+        margin: 2rem;
+    }
+    &__item {
+        
+        max-width: 60rem;
+        margin: 5rem 3rem;
+        flex-grow: 1;
+        flex-basis: 33rem;
+        &__text {
+            @include frc(flex-start, center, nowrap);
+            max-width: 90rem;
+            margin: 2rem auto;
+            line-height: 3rem;
+            & img {
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 700px) {
+    .request__item {
+        margin: 3rem 0;
+        text-align: justify;
+    }
+}

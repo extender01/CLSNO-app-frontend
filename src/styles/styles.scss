@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto+Condensed:700|Roboto');
+@import "./fontAwesomeFolder/fontawesome.scss";
+@import "./fontAwesomeFolder/solid.scss";
+
+@import './base/settings';
+
+@import './base/baseFile';
+@import './components/flex-container';
+
+@import './components/general';
+@import './components/header';
+@import './components/content-container';
+
+
+@import './components/hamburger';
+
+@import './components/landing/landing';
+
+
+@import './components/methods/lab-methods';
+@import './components/methods/lab-details';
+// // @import './components/methods/lab-form';
+
+
+// // @import './components/credentials-form';
+
+
+
+
+@import './components/organization/organizace';
+@import './components/organization/reception/reception';
+@import './components/organization/transport/transport';
+@import './components/organization/modes/modes';
+
+@import './components/for-patients/fromMD';
+@import './components/for-patients/fromSPL';
+@import './components/for-patients/ogtt';
+@import './components/for-patients/instructions';
+
+@import './components/draw/request';
+
+@import './components/draw/draws';
+@import './components/draw/draw-mistakes';
+@import './components/draw/draw-guide';
+
+@import './components/Collapsible';
+
+@import './components/for-departments/VADRec';
+@import './components/for-departments/manuals';
+
+
+//REFACTOR SCSS STRUCTURE

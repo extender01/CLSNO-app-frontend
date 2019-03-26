@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LabMetList with lab methods 1`] = `
+<div
+  className="lm"
+>
+  <Connect(LabMetItem)
+    __v={4}
+    _id="5be55cf769cf385290c66948"
+    additionalOrder="24h"
+    bioHalfLife="12h"
+    categories=""
+    category="internal"
+    customNotes={
+      Array [
+        Object {
+          "_id": "5bf40e1b60ba09405472cebd",
+          "customNote": "sd",
+          "department": "s1",
+        },
+      ]
+    }
+    draw="sg, se, pli, custom: je treba nejaka specialita"
+    erCare={false}
+    erTime="5h"
+    expertise="801"
+    extHowOften=""
+    extResponse=""
+    groupAk="CL zaklad bio"
+    interfereDown="koureni"
+    interfereUp="huleni"
+    key="5be55cf769cf385290c66948"
+    metodics="UV-VIS"
+    name="ALP"
+    nameAk="S_ALP"
+    note="zadna poznamka"
+    parcelNote=""
+    parcelPreanal=""
+    parcelWho=""
+    physVar="velka"
+    preanal="standard"
+    refRange={
+      Array [
+        Object {
+          "age": "0-150",
+          "range": "0.22-0.60",
+          "sex": "female",
+        },
+        Object {
+          "age": "554",
+          "range": "14+7",
+          "sex": "female",
+        },
+        Object {
+          "age": "15-50",
+          "range": "40-60",
+          "sex": "male",
+        },
+      ]
+    }
+    responseNote="odpoledne to flakame"
+    rutCare={true}
+    rutTime="5h"
+    statCare={false}
+    statTime="1h"
+    syn="alkalicka fosfataza, hodne dalsich slov pro synonyma"
+    unit="ukat/l"
+    whenExtTransport=""
+    where="SNO"
+  />
+  <Connect(LabMetItem)
+    __v={0}
+    _id="5bea74c7c75591445c168693"
+    additionalOrder=""
+    bioHalfLife=""
+    categories=""
+    category="external"
+    customNotes={Array []}
+    draw="sg"
+    erCare={false}
+    erTime="5h"
+    expertise="801"
+    extHowOften="denne"
+    extResponse="3 dny"
+    groupAk="EXT_VSE"
+    interfereDown=""
+    interfereUp=""
+    key="5bea74c7c75591445c168693"
+    metodics="CLIA"
+    name="CYFRA"
+    nameAk="S_EXT_CYFRA"
+    note="baf"
+    parcelNote="nesrat se s tim"
+    parcelPreanal="stocit stahnout"
+    parcelWho="RIA"
+    physVar=""
+    preanal="standard"
+    refRange={Array []}
+    responseNote=""
+    rutCare={true}
+    rutTime=""
+    statCare={false}
+    statTime="1h"
+    syn="cyp je to"
+    unit="UI/ml"
+    whenExtTransport="po-pa"
+    where="Krnov"
+  />
+  <Connect(LabMetItem)
+    __v={10}
+    _id="5bec433f51eacf1980555d86"
+    additionalOrder="24h"
+    bioHalfLife="2h"
+    categories=""
+    category="internal"
+    customNotes={
+      Array [
+        Object {
+          "_id": "5bf6f73c50230716143bf56d",
+          "customNote": "kuzelkz",
+          "department": "s1",
+        },
+      ]
+    }
+    draw="pli"
+    erCare={false}
+    erTime="5h"
+    expertise="801"
+    extHowOften=""
+    extResponse=""
+    groupAk="CL zaklad"
+    interfereDown="kren"
+    interfereUp="horcice"
+    key="5bec433f51eacf1980555d86"
+    metodics="CLIA"
+    name="BNP"
+    nameAk="P_BNP"
+    note="musi byt plasma"
+    parcelNote=""
+    parcelPreanal=""
+    parcelWho=""
+    physVar="velka"
+    preanal="standard"
+    refRange={
+      Array [
+        Object {
+          "age": "0-15 let",
+          "range": "0 - 148",
+          "sex": "Male",
+        },
+      ]
+    }
+    responseNote="kdyz pozde tak druhy den"
+    rutCare={true}
+    rutTime="5h"
+    statCare={false}
+    statTime="1h"
+    syn="NT-proBNP"
+    unit="pg/ml"
+    whenExtTransport=""
+    where="SNO"
+  />
+</div>
+`;
+
+exports[`should render LabMetList with warning, that there are no methods 1`] = `
+<div
+  className="lm"
+>
+  <h2>
+    Laboratorní metody nenalezeny
+  </h2>
+</div>
+`;

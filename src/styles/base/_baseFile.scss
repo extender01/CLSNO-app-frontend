@@ -1,0 +1,128 @@
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: $m-size;
+  margin: 0;
+  padding: 0;
+  background: $bg-blue;
+  // background-image: url('/images/ET3.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
+  //background-image: radial-gradient(#3CCDC9, #378BBD);
+  // color: white;
+}
+
+#app {
+  // max-width: 1200px;
+  min-width:300px;
+  // margin: 0 auto;
+  
+}
+
+.main-content {
+  // background: white;
+}
+
+p {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+h1 {
+  margin: 1rem 0;
+  padding: 0 2rem;
+  font-family: 'Open Sans';
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  padding: 0 2rem;
+}
+
+
+
+h4 {
+  margin: 1rem 0;
+  font-weight: 900;
+}
+
+ul {
+  padding: 0 2rem;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+  background: none;
+  border: 1px white solid;
+  color: white;
+  padding: 15px;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+.is-active {
+  font-weight: bold;
+}
+
+.inline {
+  display: inline;
+}
+
+
+
+
+
+::-webkit-input-placeholder {
+  text-align: left;
+  color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+  color: white;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+  color: white;
+
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+  color: white;
+
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+

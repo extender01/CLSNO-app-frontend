@@ -1,0 +1,27 @@
+{
+    "transport": [
+        {
+            "head": "Rychlost transportu",
+            "text": "Transport musí být dostatečně rychlý, aby bylo možné oddělit plasmu nebo sérum od krevních elementů. Obsah krevních elementů se postupně uvolňuje a výrazně ovlivňuje koncentrace analytů. Obecně by měla být krev separována nejpozději do X hodin, ale některé metody mohou vyžadovat rychlejší transport. Konkrétní informace pro metody najdete u detailu jednotlivých metod.",
+            "img": "/images/forDepartments/about/icons/transport_speed.svg"
+        },
+        {
+            "head": "Nechat srazit",
+            "text": "Při odběru srážlivé krve je třeba nechat krev po odběru alespoň 15 minut stát v kolmé poloze, aby se krev mohla kompletně srazit. Při nedodržení tohoto času dochází ke srážení při centrifugaci nebo po ní a hrozí ucpání analyzátoru a zdržení dodání výsledků i jiných vzorků. Pokud spěcháte nebo je pacient na antikoagulační léčbě, doporučuje se odebírat krev do zkumavky se zeleným vrškem.",
+            "img": "/images/backup.jpg"
+
+        },
+        {
+            "head": "Správné uchovávání",
+            "text": "Odběrové nádoby nesmí být z vnějšku potřísněny biologickým materiálem a musí být přepravovány odděleně od žádanek. Transport musí probíhat v dobře uzavřené nádobě v kolmé poloze",
+            "img": "/images/backup.jpg"
+
+        },
+        {
+            "head": "Potrubní pošta",
+            "text": "POTRUBNÍ POŠTOU NELZE ZASÍLAT LIKVOR! Krve musí být uloženy odděleně od močí. Proškolený a pověřený pracovník ukládá biologický materiál do pevných omyvatelných a desinfikovatelných kontejnerů s uzavíratelným víkem, vloží je do patrony a odešle do laboratoře. Žádanky jsou umístěny v omyvatelné a desinfikovatelné obálce.",
+            "img": "/images/backup.jpg"
+
+        }
+    ]
+}

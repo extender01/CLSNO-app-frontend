@@ -1,0 +1,15 @@
+.instructions {
+    & h2 {
+        text-align: center;
+    }
+
+    &__text {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 0 3rem;
+
+        & p {
+            margin: 2rem 0;
+        }
+    }
+}

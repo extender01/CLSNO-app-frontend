@@ -1,0 +1,34 @@
+.transport {
+    text-align: center;
+    padding: 0 2rem;
+    // @include bgimg();
+    
+    &__items {
+        @include frs();
+    }
+
+    &__item {
+        max-width: 50rem;
+        border: 1px white solid;
+        margin: 2rem;
+        padding: 2rem;
+        flex-basis: 35rem;
+        flex-grow: 1;
+
+
+
+        & h3 {
+            text-align: center;
+            color: $h-blue;
+        }
+
+        & p {
+            text-align: justify;
+            
+        }
+
+        & img {
+            max-width: 10rem;
+        }
+    }
+}

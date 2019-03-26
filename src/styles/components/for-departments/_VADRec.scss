@@ -1,0 +1,38 @@
+.VADRec {
+
+    & h3 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    & h4 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    & > p {
+        text-align: center;
+        margin: 1rem 2rem;
+    }
+    &__item {
+        @include frs(flex-start);
+        margin: 5rem 0;
+
+        &__heading {
+
+        }
+
+
+        &__text {
+            max-width: 60rem;
+            & p {
+                margin: 3rem 2rem;
+                line-height: 2.5rem;
+            }
+
+            & ul {
+                color: white;
+            }
+        }
+    }
+}

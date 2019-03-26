@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LabMetDash correctly 1`] = `
+<div
+  className="dash"
+>
+  <Connect(LabMetSearch) />
+  <Connect(LabMetCategory) />
+  <Connect(LabMetList) />
+</div>
+`;

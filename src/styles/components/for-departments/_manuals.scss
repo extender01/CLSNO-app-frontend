@@ -1,0 +1,88 @@
+.manuals {
+    @include frs();
+}
+
+.memo, .additional {
+    max-width: 120rem;
+    margin: 0 auto;
+    text-align: center;
+
+    & p {
+        margin: 2rem;
+        line-height: 2.5rem;
+    }
+
+    & img {
+        width: 100%;
+        max-width: 80rem;
+        margin-bottom: 5rem;
+    }
+
+    & a {
+        color: rgb(255, 229, 0);
+        padding: 1rem;
+
+        &:hover {
+            background: white;
+            color: $bg-blue;
+        }
+    }
+}
+
+.atb {
+    max-width: 150rem;
+    margin: 0 auto;
+    &__items {
+        @include frs();
+    }
+
+    & p {
+        // max-width: 60rem;
+    }
+    &__item {
+        // max-width: 60rem;
+        background: #154d6b;
+        padding: 2rem;
+        margin: 1rem;
+        color: white;
+        
+        &:nth-child(-n + 2) {
+            flex-basis: 20rem;
+            flex-grow: 1;
+    
+        }
+
+        & img {
+            max-width: 100%;
+        }
+
+        & li {
+            margin: 1rem 0;
+        }
+    }
+
+    &__request {
+        width: 100%;
+        @include fc();
+        // margin: 0 auto;
+
+        &__item {
+            // background: green;
+            margin: 1rem;
+            padding: 2rem;
+            @include fc();
+
+            & p {
+                text-align: center;
+                margin: 1rem 0;
+                max-width: 80rem;
+            }
+
+            & img {
+                margin: 1rem 0;
+            }
+
+            
+        }
+    }
+}

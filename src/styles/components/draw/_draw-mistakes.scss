@@ -1,0 +1,173 @@
+.draw__mistakes {
+
+    max-width: 120rem;
+    margin: 0 auto;
+    
+
+    & h1 {
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+
+    &__collaps_box {
+        // padding: 2rem;
+        border-top: 1px rgb(137, 166, 224) solid;
+        margin: 5rem 2rem;
+        padding-top: 1rem;
+        background: rgb(238, 249, 255);
+    }
+
+    &__header {
+        // background: white;
+        color: $bg-blue;
+        // border: 1px green solid;
+        cursor: pointer;
+        @include frs();
+        // flex-wrap: nowrap;
+        &:hover {
+            background: rgb(202, 237, 255);
+            color: white;
+        }
+
+        &__description {
+            max-width:100rem;
+            padding: 1rem;
+            flex-basis: 30rem;
+            flex-grow: 1;
+
+           
+        }
+
+        & img {
+            max-width: 30rem;
+            max-height: 30rem;
+            height: 100%;
+            width: 100%;
+            margin: 1rem;
+        }
+
+        & h2 {
+            padding: 0;
+        }
+    }
+
+    &__item {
+    //     border-bottom: 1px rgb(117, 117, 117) solid;
+    //     background-image: linear-gradient( rgb(255, 255, 255) 10%, rgb(190, 241, 255) 90% );
+    //    margin: 5rem 0;
+       padding: 5rem 0;
+       box-shadow: inset 0px 10px 15px -5px rgba(138, 138, 138, 0.52);
+
+       & h2, h3 {
+        text-align: center;
+    }
+        
+    }
+
+    &__what {
+        margin: 1rem;
+        padding: 1rem;
+        // padding: 3rem 0;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: space-around;
+        // align-items: center;
+        max-width: 50rem;
+        // background: rgb(219, 219, 219);
+        border: 1px $bg-blue solid;
+
+        & img {
+            width:100%;
+            // height: 100%;
+            max-width: 50rem;
+        }
+
+        & p {
+            max-width: 50rem;
+        }
+    }
+
+    &__how {
+        max-width: 50rem;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px $bg-blue solid;
+
+        &__img {
+            width: 10rem;
+            margin-right: 2rem;
+
+            & img {
+                width: 10rem;
+            }
+        }
+
+
+        &__text {
+            flex-grow: 1;
+            flex-basis: 20rem;
+        }
+
+   
+
+        &__item {
+            @include frs(center, wrap);
+            margin: 2rem 0;
+
+
+        }
+
+    }
+
+
+    &__cons {
+    border: 1px $bg-blue solid;
+    max-width: 107rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    &__item {
+        margin: 2rem 2rem 8rem 2rem;
+        background: #d3ecf9;
+        padding: 2rem;
+    }
+
+        &__table {
+            @include frc();
+            border: 1px $bg-blue solid;
+            padding: 1rem;
+            margin: 1rem 0;
+
+            &__item {
+                margin: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 15px 0 15px;
+    border-color: #ff0000 transparent transparent transparent;
+}
+
+.arrow_up {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 50px 15px;
+    border-color: transparent transparent #ff0000 transparent;
+}
+
+
+@media (max-width: 700px) {
+    .draw__mistakes__header__description h2 {
+        text-align: center;
+    }
+    
+}
