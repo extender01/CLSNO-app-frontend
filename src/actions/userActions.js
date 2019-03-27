@@ -27,7 +27,7 @@ export const startLogin = (credentials) => {
        
         axios({
             method: 'post',
-            url: '/api/login',
+            url: process.env.API_URL + '/login',
             data: {
                 nick: credentials.nick,
                 password: credentials.password
@@ -64,7 +64,7 @@ export const startSignup = (credentials) => {
        
         axios({
             method: 'post',
-            url: '/api/adduser',
+            url: process.env.API_URL + '/adduser',
             data: {
                 nick: credentials.nick,
                 password: credentials.password,
@@ -119,7 +119,7 @@ export const startLoggedUser = (callback) => {
 
 
         //checks if client has cookie with token, if yes then that user is returned as result of GET request, if not only string that says nobody is logged is returned
-        axios.get('/api/me').then((result) => {
+        axios.get(process.env.API_URL +  '/me').then((result) => {
             console.log('co posila api:', result.data);
             
             dispatch(loggedUserSuccess(result.data));
@@ -162,7 +162,7 @@ export const startLogout = () => {
         dispatch(logoutBegin());
         console.log('zacina logout');
         
-        axios.delete('/api/logout')
+        axios.delete(process.env.API_URL + '/logout')
             .then(() => {
                 console.log('uspesne smazano');
                 dispatch(logoutSuccess());

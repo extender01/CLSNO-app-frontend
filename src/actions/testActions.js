@@ -33,7 +33,7 @@ export const startAddTest = (test) => {
         //this return is for jest testing in testActions.test.js - this returns original promise, which can be chained with .then where expect()... assertions are put
         return axios({
             method: 'post',
-            url: '/api/addtest',
+            url: process.env.API_URL + '/api/addtest',
             data: test
         }).then((result) => {
             // console.log('res z axios', result);
@@ -74,7 +74,7 @@ export const startEditTest = (id, updates) => {
         
         axios({
             method: 'patch',
-            url: '/api/tests/' + id,
+            url: process.env.API_URL + '/tests/' + id,
             data: updates
         }).then((result) => {
             console.log('incoming updates', updates);
@@ -107,7 +107,7 @@ export const startDeleteTest = (id) => {
         
         axios({
             method: 'delete',
-            url: '/api/tests/' + id,
+            url: process.env.API_URL + '/tests/' + id,
         }).then((result) => {
             console.log('byla smazana metoda:', result.data.name);
             dispatch(deletTestSuccess(id));
@@ -137,7 +137,7 @@ export const startLoadTests = () => {
     return (dispatch) => {
     
         dispatch(loadTestsBegin());
-        axios.get('/api/get-all').then((result) => {
+        axios.get(process.env.API_URL + '/get-all').then((result) => {
           
             console.log('uspesne nacteny testy', result.data);
             dispatch(loadTestsSuccess(result.data));
@@ -170,7 +170,7 @@ export const startAddCustomNote = (passedNote, passedId) => {
     return (dispatch) => {
        
         dispatch(addCustomNoteBegin());
-        axios.post('/api/customNote/' + passedId, passedNote).then((result) => {
+        axios.post(process.env.API_URL + '/customNote/' + passedId, passedNote).then((result) => {
             console.log('result customNote z axiosu je:', result);
             dispatch(addCustomNoteSuccess(result.data._id, result.data.customNotes));
             history.goBack();

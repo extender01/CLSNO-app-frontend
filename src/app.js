@@ -28,6 +28,8 @@ const jsx = (
     </Provider>
 );
 
+console.log('process.env je:',process.env)
+
 // ReactDOM.render(<p>LOADING</p>, document.getElementById('app'))
 
 
